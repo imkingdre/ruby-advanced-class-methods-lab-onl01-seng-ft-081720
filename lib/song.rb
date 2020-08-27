@@ -33,6 +33,7 @@ class Song
     result = self.find_by_name
     if result
       result
-      
+    else
+      fin
 
 end
