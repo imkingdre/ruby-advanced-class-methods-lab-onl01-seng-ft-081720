@@ -30,6 +30,6 @@ class Song
     result
   end
   def self.find_or_create_by_name
-    
+    result = 
 
 end
