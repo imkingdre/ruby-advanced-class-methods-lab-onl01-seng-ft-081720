@@ -15,6 +15,7 @@ class Song
     self.all << song
     song
   end
-  def self.new_by_name(tittle)
+  def self.new_by_name(title)
+    
 
 end
