@@ -38,8 +38,8 @@ class Song
     
   end
   
-  def self.alphabetical(title)
-    @@all.sort_by{|x| x.title}
+  def self.alphabetical()
+    @@all.sort_by{|x| x.}
   end
 
 end
