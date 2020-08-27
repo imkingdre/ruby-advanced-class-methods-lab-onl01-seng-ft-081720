@@ -30,6 +30,6 @@ class Song
     result
   end
   def self.find_or_create_by_name
-    self.create_by_name
+    self.find_by_name(title) || self.create_by_name
 
 end
