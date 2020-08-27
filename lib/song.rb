@@ -21,7 +21,6 @@ class Song
     song
   end
   def self.create_by_name(title)
-    @@all
-  end
+    song.create
 
 end
