@@ -34,6 +34,7 @@ class Song
       self.create_by_name(title)
     else
       self.find_by_name(title)
+    end
     
   end
 
